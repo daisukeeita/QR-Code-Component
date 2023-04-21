@@ -87,3 +87,10 @@ picture {
   font-weight:   var(--font-weight-regular);
   margin-bottom: 40px;
 }
+
+@media screen and (min-height: 35rem) {
+    .attribution {
+        position: fixed;
+        bottom: 1.5rem;
+    }
+}
